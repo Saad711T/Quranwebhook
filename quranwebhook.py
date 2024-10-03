@@ -9,7 +9,7 @@ DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID"
 
 # تحديد آية من موقع قرآن جامعة الملك سعود
 def get_random_ayah():
-    url = "https://quran.ksu.edu.sa/"
+    url = "https://quran.ksu.edu.sa/tafseer/katheer"
     response = requests.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, 'lxml')
