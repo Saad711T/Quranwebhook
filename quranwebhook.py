@@ -5,7 +5,7 @@ import schedule
 import time
 
 # حط الويبهوك الخاص فيك
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID"
+DISCORD_WEBHOOK_URL = ""
 
 # تحديد آية من موقع قرآن جامعة الملك سعود
 def get_random_ayah():
